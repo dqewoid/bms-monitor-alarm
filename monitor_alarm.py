@@ -1,9 +1,4 @@
-import os
 
-from 支持接口 import msg_def
-
-print(os.getcwd())  # 打印当前工作目录
-print(os.listdir())  # 打印当前目录下所有文件
 
 import can
 import cantools
