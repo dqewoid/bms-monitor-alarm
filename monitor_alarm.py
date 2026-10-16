@@ -6,7 +6,7 @@ import csv
 import time
 
 # ========== 第一步：加载DBC ==========
-db = cantools.database.load_file(r'C:\Users\39154\PycharmProjects\PythonProject\battery_test.dbc')
+db = cantools.database.load_file('battery_test.dbc')
 msg_def = db.get_message_by_name('Battery_Status')
 print("DBC加载成功")
 
