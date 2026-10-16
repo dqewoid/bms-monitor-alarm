@@ -16,3 +16,12 @@ pip install python-can cantools
 python monitor_alarm.py
 python alarm_analysis.py
 
+测试场景
+模拟20条温度渐变报文（60°C→110°C），验证：
+ 
+温度≤80°C：正常，无告警
+ 
+温度>80°C：触发告警，记录日志
+测试报告截图
+screenshot1.png
+screenshot2.png
