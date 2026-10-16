@@ -17,6 +17,9 @@ python monitor_alarm.py
 python alarm_analysis.py
 
 ## 测试报告截图
+
 ![测试报告1](screenshot-1.png)
+
 ![测试报告2](screenshot-2.png)
+
 
